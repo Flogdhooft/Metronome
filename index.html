@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Métronome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="metronome">
+    <h1 class="title">Métronome</h1>
+    <p>Mesure = 4/4</p>
+
+    <div class="tempo-row">
+      <label for="tempo">Tempo =</label>
+      <input id="tempo" type="number" min="30" max="300" value="120" step="1" inputmode="numeric" />
+      <span>BPM</span>
+    </div>
+    
+    <button id="toggleButton" type="button">Lancer</button>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

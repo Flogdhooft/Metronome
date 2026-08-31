@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    width: 100%;
+    place-items: center;
+    background: rgba(211, 211, 211, 0.9);
+}
+
+.metronome {
+    width: 250px;
+    height: 220px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tempo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.tempo-row {
+    margin-bottom: 24px;
+}
+
+button {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(49, 49, 148, 0.9);
+}
+
+button.running {
+    background: rgba(28, 201, 68, 0.9);
+}
+
+
+
