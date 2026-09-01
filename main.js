@@ -30,11 +30,13 @@ function toggleMetronome() {
     timerId = setInterval(playClick, intervalle);
 
     toggleButton.textContent = "Arrêter";
+    toggleButton.classList.add('running');
     isPlaying = true;
     return
   } else {
     clearInterval(timerId);
     toggleButton.textContent = "Lancer";
+    toggleButton.classList.remove('running');
     isPlaying = false;
     return
   }
