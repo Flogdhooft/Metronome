@@ -1,24 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metronome</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="metronome">
-    <h1 class="title">Metronome</h1>
-    <p>Mesure = 4/4</p>
+  <div class="container">
+
+    <h1>Metrōnome</h1>
+    <hr>
+
+    <p>Select any number to set the tempo and start the metronome !</p>
+    <!-- <p>Mesure = 4/4</p> -->
 
     <div class="tempo-row">
-      <label for="tempo">Tempo =</label>
-      <input id="tempo" type="number" min="30" max="300" value="120" step="1" inputmode="numeric" />
+      <label for="tempo"><span>Tempo</span> =</label>
+      <input 
+        id="tempo" 
+        type="number" 
+        min="30" 
+        max="300" 
+        value="120" 
+        step="1" 
+        inputmode="numeric"
+      />
       <span>BPM</span>
     </div>
     
-    <button id="toggleButton" type="button">Lancer</button>
-  </main>
-  <script src="main.js"></script>
+    <button id="toggleButton" type="button">Start</button>
+    
+  </div>
+
+  <footer>
+    <p>Created by <a href="https://github.com/Flogdhooft" target="_blank">Flogdhooft</a>.</p>
+  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
