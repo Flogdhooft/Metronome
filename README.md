@@ -2,7 +2,7 @@
 
 Mon projet Metronome 🎼 permet de jouer un battement régulier afin de s'en servir comme réel métronome. Grâce à ce dernier, j'ai pu apprendre à faire appel à une API (Web Audio API) et à travailler plus en détails les function pour mon programme.
 
-![image alt](https://github.com/Flogdhooft/Metronome/blob/03ba11053d5953d81ff39fbadd154d13e04177cd/photo_2026-09-04_22-18-43.jpg)
+![image](https://github.com/Flogdhooft/Metronome/blob/9b049aa8cbf22bf8f16629bd39f219e7d0ed0079/assets/preview.png)
 
 La mesure est définie en 4 temps par mesures (4/4) par défaut. 
 
