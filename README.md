@@ -1,4 +1,4 @@
-# Metronome
+# Metrōnome
 
 An **interactive web metronome** combining front-end development with my background in sound engineering. This application generates a configurable beat using the browser's native **Web Audio API**, wrapped in a responsive user interface.
 
