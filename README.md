@@ -2,6 +2,8 @@
 
 An **interactive web metronome** combining front-end development with my background in sound engineering. This application generates a configurable beat using the browser's native **Web Audio API**, wrapped in a responsive user interface.
 
+**Live Demo :** [flogdhooft.github.io/Metronome](https://flogdhooft.github.io/Metronome/)
+
 ![image](https://github.com/Flogdhooft/Metronome/blob/9b049aa8cbf22bf8f16629bd39f219e7d0ed0079/assets/preview.png)
 
 ## Key Features
